@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+
+.container {
+	max-width: 980px;
+	margin: 200px auto;
+}
+
+#boxes {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+#boxes li {
+	margin-right: 20px;
+	border: 1px solid gray;
+	text-align: center;
+	flex: 0 1 230px;
+}
+
+#boxes li:last-child { margin-right: 0; }
+
+button {
+	margin: 20px 0;
+	padding: 5px;
+}
+
+.red li.colored-box { background-color: red !important; }
+.green li.colored-box { background-color: green !important; }
+.blue li.colored-box { background-color: blue !important; }
+
+.red-box { background-color: red; }
+.green-box { background-color: green; }
+.blue-box { background-color: blue; }
+.white-box { background-color: white; }
